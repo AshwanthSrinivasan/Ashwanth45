@@ -1,0 +1,281 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+  
+body{
+    background-color: black;
+    color: white;
+
+}
+.home{
+    height: 100vh;
+}
+.left img{
+    width: 50px;
+    height: 50px;
+    margin-left:20px;
+    
+}
+.nav li{
+    display: inline-block;
+    margin-right: 100px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+
+}
+.right{
+    display: inline-block;
+    margin-right: 50px;
+    float: right;
+    margin-top: 10px;
+}
+.right li{
+    list-style: none;
+    background-color: aquamarine;
+    padding: 10px 10px 10px 10px;
+    transition: .5s;
+}
+.right li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    transition: .5s;
+
+
+}
+.right li:hover{
+    background-color: transparent;
+    border: 2px solid aquamarine;
+}
+
+.pic img{
+    width: 400px;
+    margin-left: 60px;
+}
+.main{
+    display:inline-block;
+    margin-left: 300px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    color: aquamarine;
+}
+.main span h1{
+    color: aliceblue;
+}
+.btn{
+    background-color:transparent;
+    color: aquamarine;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 5px 5px 5px;
+    border: 2px aquamarine solid;
+    width: 172px;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2PX aquamarine;
+    cursor: pointer;
+    color: white;
+       
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.abt{
+    height: 100vh;
+    display: flex;
+}
+.abtl img{
+display: inline-block;
+    height: 600px;
+margin-top: 50px;
+margin-left: 50px;
+}
+.abtr{
+    display:inline-block;
+    margin-left: 300px;
+    margin-top: 53px;
+
+}
+.abtr h1 h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+.abtr span{
+    color: aquamarine;
+}
+.abtr p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 45px;
+}
+.abtr li{
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    line-height: 25px;
+}
+.smll img{
+    height: 150px;
+    margin-left: 23px;
+}
+.smll{
+    display: flex;
+}
+.skills{
+    height: 100vh;
+    
+}
+.box{
+    display: flex;
+}
+.s0{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 200px;
+    padding: 5px;
+
+}
+.s1{
+    margin-left: 150px;
+    margin-top: 275px;
+    background-color:turquoise;
+    margin-bottom: 225px;
+    padding: 60px;
+    color: white;
+    border-radius: 10px;
+}
+.s1 img{
+    height: 50px;
+    margin-left: 80px;
+}
+.s2 img{
+    height: 50px;
+    margin-left: 110px;
+}
+.s3 img{
+    height: 50px;
+    margin-left: 60px;
+}
+.s2{
+    margin-left: 90px;
+    margin-top: 275px;
+    margin-bottom: 225px;
+    padding: 60px;
+    background-color: turquoise;
+    color:white;
+    border-radius: 10px;
+
+}
+.s3{
+    margin-left: 90px;
+    margin-top: 275px;
+    margin-bottom: 225px;
+    padding: 60px;
+    background-color:turquoise ;
+    color:white;
+    border-radius: 10px;
+}
+.contact{
+    height: 100vh;
+    color: white;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+.cnt{
+    display: flex;
+    flex-direction: column;
+    width: 618px;
+    margin-left: 415px;
+}
+.btn button a{
+    background-color: aquamarine;
+    text-decoration: none;
+    padding: 5px;
+
+}
+.sub{
+    background-color: aquamarine;
+    padding: 5px;
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+    margin-left:220px;
+    transition: .5s;
+}
+.sub:hover{
+background-color: transparent;
+border: 1px solid aquamarine;
+cursor: pointer;
+}
+.get h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+.get p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    line-height: 25px;
+}
+.add h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+   padding-top: 10px;
+   margin-right: 53px;
+}
+.add h2{
+    margin-left: 622px;
+    font-family: 'Poppins', sans-serif;
+}
+.add h3{
+    margin-left: 622px;
+    font-family: 'Poppins', sans-serif;
+}
+.social i {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    size: 100px;
+    font-weight: bold;
+    background-color: aquamarine;
+    border-radius: 20px;
+    transition: 2px;
+}
+.social i:hover{
+      background-color: transparent;
+      border: 1px solid aquamarine;
+     
+}
+.social{
+    margin-left: 600px;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+}
